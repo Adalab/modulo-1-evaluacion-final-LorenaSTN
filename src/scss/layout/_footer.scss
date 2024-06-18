@@ -13,4 +13,23 @@
         justify-content: center;
         padding: 15px;
     }
+
+    &__copy {
+        font-family: $font-main;
+        font-size: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    &__werun {
+        text-align: center;
+        font-size: 14px;
+        font-family: $font-main;
+        line-height: 30px;
+    }
+}
+
+
+.heart {
+    color: $color-primary;
 }
