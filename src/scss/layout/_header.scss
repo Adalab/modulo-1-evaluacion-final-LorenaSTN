@@ -10,12 +10,17 @@
         height: 120vh;
     }
 
+    @media (min-width:1280px) {
+        background-size: cover;
+    }
+
     &__menu {
         background-color: $color-primary;
         width: 50px;
         padding: 15px;
         position: sticky;
         top: 0;
+    
     }
 
     &__section {
@@ -44,6 +49,7 @@
                line-height: 100px;
                height: 300px;
                padding-top: 85px;
+               width: 70%;
              }
         }
 
