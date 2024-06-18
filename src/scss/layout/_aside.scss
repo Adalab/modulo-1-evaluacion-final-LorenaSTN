@@ -1,6 +1,10 @@
 .aside {
     padding: 15px;
 
+    @media (min-width:768px) {
+        padding: 37px;
+    }
+
     &__subtitle {
         margin-top: 20px;
         font-family: $font-main;
@@ -8,6 +12,10 @@
         height: 30px;
         font-weight: normal;
         color: $color-primary;  
+
+    @media (min-width:768px) {
+        font-size: 16px;
+    }
     }
 
     &__title {
@@ -18,12 +26,21 @@
         margin-top: -10px;
         color: $color-tertiary;
 
+        @media (min-width:768px) {
+            font-size: 32px;
+            margin-top: 5px;
+        }
+
         &__p {
             font-family: $font-main;
             font-size: 18px;
             line-height: 30px;
             color: $color-fourth;
             margin-top: 10px;
+
+            @media (min-width:768px) {
+                font-size: 20px;
+            }
         } 
     }
 
@@ -38,6 +55,10 @@
         width: 160px;
         margin-top: 40px;
         margin-bottom: 10px;
+
+        @media (min-width:768px) {
+            margin-top: 20px;
+        }
     
     }
 }
