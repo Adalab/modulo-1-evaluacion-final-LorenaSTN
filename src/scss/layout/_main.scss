@@ -18,3 +18,28 @@
         }
     }
 }
+
+.grid{
+   align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+    &__one{
+        margin: 0 auto;
+        margin-top: 10px;
+    
+        &__p {
+            font-family: $font-title;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    
+    }
+} 
+
+
+.grid__one__img {
+    height: 125px;
+    border-radius: 50%;
+}
