@@ -1,7 +1,8 @@
 .header {
     background-image: url(../images/cover.jpeg);
-    background-position: 83%;
+    background-position: 80%;
     height: 100vh;
+    background-size: cover;
 
     &__menu {
         background-color: $color-primary;
@@ -17,6 +18,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
+        padding: 15px;
 
         &__title{
             font-family: $font-title;
@@ -25,8 +27,15 @@
             font-size: 30px;
             font-weight: bold;
             line-height: 50px;
+        }
 
-        
+        &__subtitle{
+            color: white;
+            font-family: $font-main;
+            font-size: 16px;
+            line-height: 1.19;
+            font-weight: normal;
+            text-align: center;
         }
     }
 }
