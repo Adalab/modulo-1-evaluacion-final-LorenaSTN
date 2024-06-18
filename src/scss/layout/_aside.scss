@@ -1,8 +1,8 @@
 .aside {
-    padding: 10px;
+    padding: 15px;
 
     &__subtitle {
-        margin-top: 24px;
+        margin-top: 20px;
         font-family: $font-main;
         font-size: 14px;
         height: 30px;
@@ -16,5 +16,27 @@
         font-weight: bold;
         line-height: 30px;
         margin-top: -10px;
+        color: $color-tertiary;
+
+        &__p {
+            font-family: $font-main;
+            font-size: 18px;
+            line-height: 30px;
+            color: $color-fourth;
+            margin-top: 10px;
+        } 
+    }
+
+    &__button {
+        background-color: $color-secondary;
+        padding: 8px;   
+        font-family: $font-main; 
+        font-size: 20px;
+        color: $color-primary ;
+        border: 2px solid $color-primary;
+        border-radius: 25px ;
+        width: 160px;
+        margin-top: 40px;
+    
     }
 }
