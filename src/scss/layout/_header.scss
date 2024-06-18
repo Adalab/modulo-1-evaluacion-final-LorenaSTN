@@ -23,14 +23,14 @@
         &__title{
             font-family: $font-title;
             text-align: center;
-            color: white;
+            color: $color-secondary;
             font-size: 30px;
             font-weight: bold;
             line-height: 50px;
         }
 
         &__subtitle{
-            color: white;
+            color: $color-secondary;
             font-family: $font-main;
             font-size: 16px;
             line-height: 1.19;
@@ -43,7 +43,7 @@
 .button {
     width: 40px;
     height: 40px;
-    background-color: white;
+    background-color: $color-secondary;
     border-radius: 50%; 
     padding: 10px;
     margin: 0 auto;
