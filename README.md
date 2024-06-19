@@ -10,7 +10,7 @@ El proyecto está realizado usando el control de ramas para cada seccion: header
 
 ---
 
-## Requisitos para la instalación del proyecto
+### Requisitos para la instalación del proyecto
 
 Para la instalación del proyecto es necesario descargar las dependencias. Para ello necesitaremos introducir el siguiente código en nuestra terminal:
 
