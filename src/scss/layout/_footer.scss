@@ -7,14 +7,9 @@
     position: relative;
 
     @media (min-width:768px){
-
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "3" "1" "2";
-        // display: flex;
-        // justify-content: space-evenly;
-        // align-items: center;
-        // flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     &__list {
@@ -61,26 +56,18 @@
 
 }
 
-#list1 {
+
+
+.list1 {
     margin-top: 20px;
+    order: 2;
+}  
 
-    @media (min-width:768px){
-        grid-area: "1";
-    }
+.list2{
+    order: 3;
 }
 
-#list2 {
-
-    @media (min-width:768px) {
-        grid-area: "2";
-    }
-}
-
-
-#list3 {
-
-    @media (min-width:768px){
-        grid-area: "3";
-    }
+.list3 {
+    order: 1;
 }
 
