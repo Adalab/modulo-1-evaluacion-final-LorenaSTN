@@ -76,7 +76,12 @@
         font-size: 20px;  
         display: block;
         margin: 0 auto; 
-        margin-bottom: 20px;   
+        margin-bottom: 20px; 
+
+        &:active{
+        transform: scale(1.5);
+        transition: 2s;  
+        }
 
 
         @media (min-width:768px) {
