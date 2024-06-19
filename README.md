@@ -8,6 +8,14 @@ El proyecto consiste en la maquetación de una página web, con un diseño dado 
 
 El proyecto está realizado usando el control de ramas para cada seccion: header, aside, main y footer y usando diferentes técnicas de maquetación como Flexbox y CSS grid, empleando código SCSS/SASS.
 
+### Maquetación estilo responsive
+
+La maquetación esta pensada para poder ser ejecutada en diferentes dispositivos:
+
+##### Mobile first:
+
+![mobile](url:'../images/mobile.png')
+
 ### Requisitos para la instalación del proyecto
 
 Para la instalación del proyecto es necesario descargar las dependencias. Para ello necesitaremos introducir el siguiente código en nuestra terminal:
