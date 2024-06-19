@@ -26,6 +26,8 @@ o
 
 `npm run dev`
 
+---
+
 ### Programadora responsable
 
 Lorena Sánchez-Toril Nicolás
