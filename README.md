@@ -17,3 +17,7 @@ Para la instalación del proyecto es necesario descargar las dependencias. Para 
 Una vez instaladas, iniciaremos el proyecto con el siguiente comando:
 
 `npm start`
+
+o
+
+`npm run dev`
