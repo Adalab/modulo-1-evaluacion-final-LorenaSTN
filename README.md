@@ -25,3 +25,7 @@ Una vez instaladas, iniciaremos el proyecto con el siguiente comando:
 o
 
 `npm run dev`
+
+### Programadora responsable
+
+Lorena Sánchez-Toril Nicolás
