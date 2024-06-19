@@ -55,6 +55,14 @@
         width: 160px;
         margin-top: 40px;
         margin-bottom: 10px;
+        cursor: pointer;
+        transition: 0,2s;
+
+         &:hover {
+            opacity: 0.6;
+            // transform: rotate(360deg);
+            // transition: 0,8s;
+         }
 
         @media (min-width:768px) {
             margin-top: 20px;
