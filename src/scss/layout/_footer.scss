@@ -52,6 +52,12 @@
     padding: 10px;
     border: none;
     border-radius: 50%;
+    transition: background-color 2s ease-out 100ms;
+
+    &:hover {
+        background-color: $background-color;
+    }
+   
 }
 
 
