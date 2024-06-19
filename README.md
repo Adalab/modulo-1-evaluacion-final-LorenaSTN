@@ -10,11 +10,7 @@ El proyecto está realizado usando el control de ramas para cada seccion: header
 
 ### Maquetación estilo responsive
 
-La maquetación esta pensada para poder ser ejecutada en diferentes dispositivos:
-
-##### Mobile first:
-
-![mobile](url:'../images/mobile.png')
+La maquetación esta pensada para poder ser ejecutada en diferentes dispositivos. En este caso hemos empleado el mobile first, donde se plantean primero los estilos de la vista de móvil y, a medida que tenemos mayor tamaño de pantalla, sobrescribimos o ajustamos los estilos necesarios.
 
 ### Requisitos para la instalación del proyecto
 
