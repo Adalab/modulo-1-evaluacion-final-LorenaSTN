@@ -28,6 +28,6 @@ o
 
 ---
 
-### Programadora responsable
+### Créditos
 
 Lorena Sánchez-Toril Nicolás
